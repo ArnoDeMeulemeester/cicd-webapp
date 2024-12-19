@@ -9,6 +9,11 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+name: dependabot
+on:
+  push:
+    branches:
+      - main
 
 # name: dependabot
 # on:
