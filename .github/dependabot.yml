@@ -14,22 +14,3 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-
-# name: dependabot
-# on:
-#   push:
-#     branches:
-#       - main
-
-# jobs:
-#   test:
-#     runs-on: ubuntu-latest
-#     steps:
-
-
-
-# updates:
-#   - package-ecosystem: "github-actions"
-#     directory: "/"
-#     schedule:
-#       interval: "weekly"
